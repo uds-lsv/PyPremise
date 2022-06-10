@@ -1,0 +1,4 @@
+include setup.py
+include pypremise/*.py
+include pypremise/Premise
+include README.md
