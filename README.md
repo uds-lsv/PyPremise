@@ -83,7 +83,7 @@ for pattern in premise_patterns:
 
 ``data_loaders`` contains various methods to load data and convert it into the format
 expected by PyPremise. We will now give a couple of examples. For the full documentation of the methods
-and the full list of helper methods, please check the documentation in data_loaders.py.
+and the full list of helper methods, please check the documentation in [pypremise/data_loaders.py](https://github.com/uds-lsv/PyPremise/blob/master/pypremise/data_loaders.py).
 
 ### For NLP / for text from files
 
@@ -154,7 +154,7 @@ You can also use any other word embeddings of your choice. You just need to prov
 ### For arbitrary machine learning data and data mining
 
 PyPremise can use dense matrices and sparse matrix representations, both directly
-or from files. Just check out the documentation in pypremise.data_loaders for the methods
+or from files. Just check out the documentation in [pypremise.data_loaders](https://github.com/uds-lsv/PyPremise/blob/master/pypremise/data_loaders.py) for the methods
 * from_sparse_index_lists
 * from_dense_index_matrix
 * from_csv_sparse_index_file
@@ -182,7 +182,7 @@ Also, please cite our work as
 }
 ```
 
-This library is published under MIT license.
+PyPremise (not Premise itself) is published under MIT license.
 
 ## Contact and Help
 If you run into any issues, feel free to contact us (email in the paper) or create an issue on GitHub. 
