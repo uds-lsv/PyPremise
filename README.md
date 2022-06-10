@@ -7,7 +7,7 @@ been evaluated both on NLP text tasks and data with arbitrary binary features.
 For a recent Visual Question Answering model, it, e.g., identifiers that the model struggles
 with counting, visual orientation and higher reasoning questions:
 
-![table with examples of Premise results](example.png)
+<img src="example.png" alt="Examples of patterns found by Premise on VQA" width="500"/>
 
 For more examples, you can check out the original publication of [Premise](https://arxiv.org/abs/2110.09599).
 
