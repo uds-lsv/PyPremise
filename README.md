@@ -7,7 +7,16 @@ been evaluated both on NLP text tasks and data with arbitrary binary features.
 For a recent Visual Question Answering model, it, e.g., identifiers that the model struggles
 with counting, visual orientation and higher reasoning questions:
 
-<img src="example.png" alt="Examples of patterns found by Premise on VQA" width="500"/>
+| pattern                                      | example from the dataset       |
+|----------------------------------------------|--------------------------------|
+| UNK                                          | how are the UNK covered        |
+| (how, many)                                  | how many elephants are there   |
+| (what, ⓧ(color, colors, colour) )            | what color is the bench        |
+| (on, top, of)                                | what is on the top of the cake |
+| (left, to)                                   | what can be seen to the left   |
+| (on, wall, hanging)                          | what is hanging on the wall    |
+| (how, does, look)                            | how does the woman look        |
+| (what, does, ⓧ(say, like, think, know, want) ) | what does the sign say         |
 
 For more examples, you can check out the original publication of [Premise](https://arxiv.org/abs/2110.09599).
 
@@ -50,6 +59,8 @@ Currently, only Linux is supported. If you want to use PyPremise on Windows, jus
 
 If you want to use FastText embeddings (optional), please install them following [these instructions](https://fasttext.cc/docs/en/support.html)
 and then download embeddings for your language [here](https://fasttext.cc/docs/en/crawl-vectors.html) (the .bin file is needed).
+
+If you are looking for the Additional Material of the Premise paper, you can find it [here](https://github.com/uds-lsv/premise).
 
 ## Example Usages & Documentaiton
 
