@@ -179,17 +179,17 @@ If you use this tool in your work, we would be happy if you tell us about it!
 Also, please cite our work as
 
 ```
-@article{premise,
+@inproceedings{premise,
   author    = {Michael A. Hedderich and
                Jonas Fischer and
                Dietrich Klakow and
                Jilles Vreeken},
-  title     = {Label-Descriptive Patterns and their Application to Characterizing
+  title     = {Label-Descriptive Patterns and Their Application to Characterizing
                Classification Errors},
-  journal   = {CoRR},
-  volume    = {abs/2110.09599},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2110.09599}
+  booktitle = {International Conference on Machine Learning, {ICML}},
+  series    = {Proceedings of Machine Learning Research},
+  year      = {2022},
+  url       = {https://proceedings.mlr.press/v162/hedderich22a.html}
 }
 ```
 
