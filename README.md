@@ -55,7 +55,7 @@ Install a recent version of Python, then just run
 ```
 pip install pypremise
 ```
-Currently, only Linux is supported. If you want to use PyPremise on Windows, just contact us.
+Currently, only Linux (Ubuntu) is supported in this way. If you want to use it on a different platform like macOS, compile the original [Premise](https://github.com/uds-lsv/premise/) for your platform and replace the ``Premise`` executable file in the ``pypremise`` directory here with the one you compiled for your platform. You can then call ``pip install .`` to install PyPremise. If you run into any issues, just contact us.
 
 If you want to use FastText embeddings (optional), please install them following [these instructions](https://fasttext.cc/docs/en/support.html)
 and then download embeddings for your language [here](https://fasttext.cc/docs/en/crawl-vectors.html) (the .bin file is needed).
